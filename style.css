@@ -1,0 +1,88 @@
+*{
+    box-sizing:border-box ;
+}
+/*Sfondo del sito*/
+body{
+    background-image: url("immagini test/background.jpg");
+    background-size: 1400px 1000px;
+    background-position:center 10%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*colore per tutti i testi*/
+    color: white;
+}
+/* Logo e immagine*/
+img{
+    width: 170px;
+}
+
+h1{
+    color: #08dc04;
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+h1, .user{
+    font-family: 'Inter', sans-serif;
+}
+/*Contenitore*/
+
+.container{
+    text-align: center;
+    margin:auto;
+    background-color: rgba(5,4,2, 0.5);
+    margin-top: 65px;
+    border-radius: 10px 10px 10px 10px;
+    width: 800px; /* Larghezza di 200px */
+    height: 550px; /* Altezza di 200px */
+    padding: 60px;
+}
+/* Barra di navigazione*/
+.buttons{
+    background-color: #08dc04;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+/* Parte utenti*/
+.row{
+    text-align:left
+}
+
+.user{
+    font-size: 20px;
+    font-family: "Anton variant0", Tofu;
+}
+
+.posizione-distanza{
+    margin-left: 5px;
+}
+
+.posizione, .distanza{
+    display: inline-block;
+    font-family: 'Inconsolata';
+    font-size: 15px;
+    
+}
+/*Barra di ricaricarica monopattino*/
+.carica1{
+    background-color: #910606;
+    height: 25px;
+    width: 30%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.carica2{
+    background-color:rgb(3, 160, 3);
+    height: 25px;
+    width: 90%;
+    border-radius: 5px 5px 5px 5px; 
+}
+
+.carica3{
+    background-color: orange;
+    height: 25px;
+    width: 60%;
+     border-radius: 5px 5px 5px 5px; 
+}
